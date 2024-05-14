@@ -11,7 +11,7 @@ type Path struct {
 	Dirpath string
 }
 
-// フィルター
+// フィルター型
 type Filter func(string) bool
 
 // DirPath,FileNameをフィルターする関数
